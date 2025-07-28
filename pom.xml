@@ -22,16 +22,6 @@
 				<version>${spring-boot.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
-				<exclusions>
-					<exclusion>
-						<groupId>org.springframework.boot</groupId>
-						<artifactId>spring-boot-starter-tomcat</artifactId>
-					</exclusion>
-					<exclusion>
-						<groupId>com.h2database</groupId>
-						<artifactId>h2</artifactId>
-					</exclusion>
-				</exclusions>
 			</dependency>
     </dependencies>
   </dependencyManagement>
@@ -49,10 +39,7 @@
 		<dependency>
 			<groupId>org.apache.camel.springboot</groupId>
 			<artifactId>camel-spring-boot-starter</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+			<version>${camel.version}</version>
 		</dependency>
   </dependencies>
 </project>
