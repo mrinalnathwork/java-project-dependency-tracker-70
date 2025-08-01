@@ -9,7 +9,7 @@
   	<properties>
    		<spring-boot.version>3.4.6</spring-boot.version>
 		<spring-cloud.version>2024.0.1</spring-cloud.version>
-		<camel.version>4.10.5</camel.version>
+		<camel.version>4.13.0</camel.version>
   </properties>
   <dependencyManagement>
 		<dependencies>
